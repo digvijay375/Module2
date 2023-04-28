@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Module4.Q18.QuestionEighteen">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:elevation="6dp"
+        android:background="@color/blue"
+        android:id="@+id/toolbar"
+        >
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/spinner"
+            android:prompt="@string/spinner_prompt"
+            />
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search..."
+            android:textColorHint="@color/black"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:maxLines="1"
+            />
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+</RelativeLayout>

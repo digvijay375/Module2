@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="42dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Module3.Q5.QusetionFivthLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Page"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginBottom="24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:id="@+id/et_name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:id="@+id/et_login"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:id="@+id/et_age"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:id="@+id/et_password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:id="@+id/et_confirm_password"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/voilet"
+        android:textSize="18dp"
+        android:text="Need Help ?"
+        android:gravity="right"
+        android:layout_marginVertical="12dp"
+        android:id="@+id/btn_help"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="24dp"
+        android:id="@+id/btn_signup"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="48dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/btn_login"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/blue"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="32dp"
+    tools:context=".Module3.Q4.QuestionFourthSecondActivtiy">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Name"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:id="@+id/et_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Father Name"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginVertical="12dp"
+        android:id="@+id/et_father_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Age"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:id="@+id/et_age"
+        />
+</LinearLayout>

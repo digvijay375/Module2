@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    tools:context=".Module3.Q4.QuestionFourthFirstActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        android:id="@+id/et_name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Father Name"
+        android:textColor="@color/blue"
+        android:layout_marginVertical="12dp"
+        android:textSize="18dp"
+        android:id="@+id/et_father_name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        android:id="@+id/et_age"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:layout_marginVertical="24dp"
+        android:id="@+id/btn_submit"
+        />
+</LinearLayout>
